@@ -25,5 +25,4 @@ public class FileHandler {
     public String GetStatusColor(Player player) {
         return config.getString("status." + player.getUniqueId() + ".color");
     }
-
 }
