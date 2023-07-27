@@ -1,0 +1,10 @@
+name: Status
+version: '${version}'
+main: at.alex.status.status
+api-version: '1.20'
+prefix: "[Status]"
+commands:
+  status:
+    description: Set your Status
+  statuscolor:
+    description: Set the Color of your Status
